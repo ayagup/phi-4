@@ -1,0 +1,14 @@
+langchain>=0.3.0
+langchain-core>=0.3.0
+langchain-community>=0.3.0
+langchain-huggingface>=0.1.0
+langgraph>=0.2.0
+huggingface-hub>=0.20.0
+transformers>=4.36.0
+torch>=2.1.0
+# Ensure compatible torchvision or skip it
+# torchvision is not required for text models
+accelerate>=0.25.0
+sentencepiece>=0.1.99
+python-dotenv>=1.0.0
+psutil>=5.9.0
